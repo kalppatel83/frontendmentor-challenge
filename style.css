@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap");
+:root {
+  --AlmostWhite: hsl(0, 0%, 98%);
+  --MediumGray: hsl(0, 0%, 41%);
+  --AlmostBlack: hsl(0, 0%, 8%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+.nav-bar {
+  margin: 20px 40px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: start;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list li {
+  list-style-type: none;
+  margin-left: 40px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+.nav-list li a {
+  color: var(--MediumGray);
+  text-decoration: none;
+}
+.nav-list li a:hover {
+  color: var(--AlmostBlack);
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+.navbar-right li {
+  align-items: center;
+}
+.btn-plain {
+  background: none;
+  border: none;
+  margin-right: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--MediumGray);
+}
+.btn-plain:hover {
+  color: var(--AlmostBlack);
+}
+.register-btn {
+  border: 1px solid var(--MediumGray);
+  background: none;
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.register-btn:hover {
+  background: var(--AlmostBlack);
+  color: #f2f2f2;
+}
+.hero {
+  width: 100%;
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.hero-content {
+  width: 700px;
+  margin-right: 25px;
+}
+.hero-header {
+  font-size: 82px;
+  margin-bottom: 10px;
+}
+.hero-para {
+  font-size: 22px;
+  color: var(--MediumGray);
+  margin-bottom: 30px;
+}
+.cta-btn {
+  padding: 15px 20px;
+  background: var(--AlmostBlack);
+  color: white;
+  border-radius: 12px;
+}
+.hero-img {
+  max-width: 500px;
+
+  max-height: 600px;
+}
